@@ -18,12 +18,20 @@ For this part of the project, we used Splinter, Beautiful Soup, and JSON librari
 
 NOTE: There is a 'MORE' button on the webpage but it is not clickable. In this case, we do not need to scrape through multiple pages to click through older articles.
 
+Below is a preview of what a text element looks like:
+
+    <div class="list_text">
+    <div class="list_date">November 9, 2022</div>
+    <div class="content_title">NASA's MAVEN Observes Martian Light Show Caused by Major Solar Storm</div>
+    <div class="article_teaser_body">For the first time in its eight years orbiting Mars, NASA’s MAVEN mission witnessed two different types of ultraviolet aurorae simultaneously, the result of solar storms that began on Aug. 27.</div>
+    </div>
+
 Next, the titles and preview text of the news articles that were scraped were stored into a Python data structures following these steps:
 1. Store each title-and-preview pair in a Python dictionary. And, give each dictionary two keys: title and preview. An example is the following:
-    {'title': "NASA's MAVEN Observes Martian Light Show Caused by Major Solar Storm", 
-     'preview': "For the first time in its eight years orbiting Mars, NASA’s MAVEN mission witnessed two different types of ultraviolet aurorae simultaneously, the result of solar storms that began on Aug. 27."
-    }
-2. Store all the dictionaries in a Python list.
+
+    {'title': "NASA's MAVEN Observes Martian Light Show Caused by Major Solar Storm", 'preview': "For the first time in its eight years orbiting Mars, NASA’s MAVEN mission witnessed two different types of ultraviolet aurorae simultaneously, the result of solar storms that began on Aug. 27."}
+   
+3. Store all the dictionaries in a Python list.
 
 The results can be found in [Part 1: Mars News Jupyter Notebook](https://github.com/dspataru/web-scraping-challenge/blob/main/part_1_mars_news.ipynb).
 
