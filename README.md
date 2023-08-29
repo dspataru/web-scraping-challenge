@@ -6,7 +6,7 @@
 ## Table of Contents
 * [Background](https://github.com/dspataru/web-scraping-challenge/blob/main/README.md#background)
 * [Section 1: Scrape Titles and Preview Text from Mars News](https://github.com/dspataru/web-scraping-challenge/blob/main/README.md#section-1-scrape-titles-and-preview-text-from-mars-news)
-* [Section 2: Scrape and Analyze Mars Weather Data](https://github.com/dspataru/web-scraping-challenge/blob/main/README.md#section-2-scrape-and-analyze-mars-weather-data)
+* [Section 2: Scrape and Analyze Mars Weather Data](https://github.com/dspataru/web-scraping-challenge/tree/main#section-2-scrape-and-analyze-mars-weather-data)
 
 ## Background
 
